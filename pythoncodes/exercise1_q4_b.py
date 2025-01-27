@@ -13,12 +13,12 @@ H2 = (s - 1) / (s + 3)
 H3 = s / (s**2 + 3 * s + 1)
 H4 = 1 / (s + 2)
 
-y1 = s
+y2 = s
 
-input_to_G1 = y1 - H1 - H3
+input_to_G1 = y2
 input_to_G2 = G1
 input_to_G3 = G4 + G2 - H2
-input_to_G4 = y1 - H1 - H3
+input_to_G4 = y2
 
 input_to_H1 = G1
 input_to_H2 = G3 - H4
