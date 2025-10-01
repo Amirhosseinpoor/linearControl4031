@@ -67,5 +67,19 @@ During the semester, I delved into these fundamental areas:
 
 ---
 
-This repository stands as a testament to the knowledge and skills I gained throughout the Linear Control course, reflecting my dedication to mastering the subject. Feel free to explore the resources provided!
+# Final Project
+
+This project applied classical control techniques to design and analyze controllers for a given frequency-response system. The focus was on ensuring stability, meeting performance requirements, and validating the results through simulation.
+
+**Key points:**
+
+* Identified system type, order, and delay from frequency response data; fitted an appropriate transfer function.
+* Analyzed stability using Routh–Hurwitz, Bode, Nyquist, and root locus methods.
+* Designed and tuned P, PI, PD, and lead–lag controllers to satisfy overshoot, settling time, and steady-state error specifications.
+* Verified system behavior through MATLAB simulations, comparing controlled and uncontrolled responses.
+
+**Tools used:** MATLAB
+
+**Outcome:** Achieved a stable closed-loop design that met transient and steady-state performance requirements, demonstrating the effectiveness of classical controller design.
+
 
